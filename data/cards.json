@@ -1,0 +1,19 @@
+[
+    {
+        "id": "card-1",
+        "image": "./assets/cards-images/1-img.jpg",
+        "button": "WATCH"
+    },
+
+    {
+        "id": "card-2",
+        "image": "./assets/cards-images/2-img.jpg",
+        "button": "WATCH"
+    },
+
+    {
+        "id": "card-3",
+        "image": "./assets/cards-images/3-img.jpg",
+        "button": "WATCH"
+    }
+]
