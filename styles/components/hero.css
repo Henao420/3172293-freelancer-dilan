@@ -9,12 +9,10 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    justify-content: center;
 }
 
 .hero {
     display: flex;
-    flex-direction: row;
     background-color: var(--background-hero);
     height: 100vh;
     align-items: center;
@@ -47,10 +45,9 @@ body {
 }
 
 .hero__subtitle {
-    align-items: center;
     color: var(--terciary-950);
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: var(--fs-xxxs);
     border-bottom: 1px solid var(--white);
 }
@@ -59,7 +56,7 @@ body {
     color: var(--white);
     line-height: 2.0;
     border-top: 1px solid var(--terciary-950);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
@@ -100,6 +97,5 @@ body {
     .hero__content-right {
         border-top: 0;
         text-align: center;
-        
     }
 }

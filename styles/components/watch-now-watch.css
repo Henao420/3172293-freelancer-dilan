@@ -7,8 +7,6 @@ body {
     background-position: 100px;
     background-repeat: no-repeat;
     background-color: var(--primary);
-    height: 100vh;
-    margin: 0 auto;
 }
 
 .watch__now-watch {
@@ -19,8 +17,6 @@ body {
 
 .watch__content {
     align-content: center;
-    gap: 5px;
-    height: 100vh;
 }
 
 .watch__title {
@@ -74,14 +70,12 @@ body {
     }
 
     .watch__title {
-        position: relative;
         left: 0;
         text-align: center;
         font-size: var(--fs-sm);
     }
     
     .watch__content-text {
-        position: relative;
         right: 0;
         line-height: 1.3;
         text-align: center;
