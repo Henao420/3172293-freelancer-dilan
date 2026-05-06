@@ -8,8 +8,7 @@
 .navbar__list {
     display: flex;
     justify-content: center;
-    gap: 16px 24px;
-    list-style: none;
+    gap: 16px;
 }
 
 .navbar__link {
@@ -22,13 +21,12 @@
 .navbar__link:hover {
     background-color: var(--white);
     color: var(--gray-800);
-    padding: 16px 24px;
+    padding: 16px;
     border-radius: 16px;
 }
 
 @media (width < 768px) {
     .navbar__list {
-        flex-direction: row;
         gap: 16px;
         text-align: center;
     }

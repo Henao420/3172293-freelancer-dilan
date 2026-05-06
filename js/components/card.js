@@ -13,17 +13,17 @@ export async function loadCards(containerSelector, cardIds = []) {
         const template = await templateRes.text();
         const cards = await dataRes.json();
 
-    const filteredCards = cardIds.length ? cardIds.filter (card => cardIds.includes(card.id)) : cards;
+        const filteredCards = cardIds.length ? cardIds.filter (card => cardIds.includes(card.id)) : cards;
 
-    filteredCards.forEach(card => {
+        filteredCards.forEach(card => {
         let html = template
         .replace("{{image}}", card.image)
         .replace("{{button}}", card.button)
 
         container.innerHTML += html;
-    });
+        });
         
-    } catch (error) {
+    }   catch (error) {
         console.log("Error cargando las cards", error)
-    }
+        }
 }

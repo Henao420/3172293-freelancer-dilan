@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
             .then(response => response.text())
 
-            .then(data => {
+            .then(data => { 
                 navbarElement.innerHTML = data;
                 
                 const currentPage = window.location.pathname.split("/").pop() || "index.html"
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         link.classList.add("active")
                     }
                 });
-        })
+            })
+
             .catch(error => console.log("Error cargando el navbar"))
 })

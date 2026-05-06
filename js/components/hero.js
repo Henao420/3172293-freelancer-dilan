@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(data => {
                 heroElement.innerHTML = data;
                 
-        })
+            })
             .catch(error => console.log("Error cargando el hero"))
 })
